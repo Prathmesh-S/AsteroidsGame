@@ -4,8 +4,9 @@ Star [] nightSky = new Star[250];
  ArrayList<Asteroid> HailStorm = new ArrayList <Asteroid>();
 public void setup() 
 {
-  background(0);
+
   size(800,800);
+    background(0);
   for (int i = 0; i<nightSky.length; i++) {
     nightSky[i] = new Star(); 
   }
@@ -48,4 +49,3 @@ public void keyPressed(){
       Bob.hyperSpace();
   }
 }
-//
