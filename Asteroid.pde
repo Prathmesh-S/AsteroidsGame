@@ -43,3 +43,4 @@ public Asteroid(){
   return((int)myCenterY);
   }
 }
+//
