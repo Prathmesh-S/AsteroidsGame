@@ -1,5 +1,5 @@
 class Asteroid extends Floater {
-public int speedOfRotation;
+private int speedOfRotation;
 public Asteroid(){
   speedOfRotation = (int)(Math.random()*7)-3;
   corners = 7;
@@ -43,4 +43,3 @@ public Asteroid(){
   return((int)myCenterY);
   }
 }
-//
