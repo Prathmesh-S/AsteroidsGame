@@ -25,9 +25,10 @@ public void draw()
   for(int i = 0; i<HailStorm.size(); i++){
     if (dist(Bob.getMyX(),Bob.getMyY(),HailStorm.get(i).getAsteroidX(),HailStorm.get(i).getAsteroidY())<25) {
     HailStorm.remove(i);
-    }
+    } else {
     HailStorm.get(i).move();
     HailStorm.get(i).show();
+  }
   }
 }
 
