@@ -6,8 +6,8 @@ starColorR = (int)(Math.random()*255);
 starColorG = (int)(Math.random()*255);
 starColorB = (int)(Math.random()*255);
 starSize = (int)(Math.random()*7);
-starX = (int)(Math.random()*500);
-starY = (int)(Math.random()*500);
+starX = (int)(Math.random()*800);
+starY = (int)(Math.random()*800);
   }  
   public void show(){
   fill(starColorR,starColorG,starColorB);
